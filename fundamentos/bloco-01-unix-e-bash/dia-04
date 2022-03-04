@@ -1,6 +1,4 @@
-cat >> dia-04
 
-ls
 Navegue até a pasta unix_tests ;
 
 Crie um arquivo texto pelo terminal com o nome skills2.txt e adicione os valores Internet , Unix e Bash , um em cada linha.

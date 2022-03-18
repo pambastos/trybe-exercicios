@@ -16,7 +16,7 @@
         */
 
 function mudarTexto() {
-  let texto = document.getElementsByTagName("p")[0];
+  let texto = document.getElementsByTagName("p")[1];
   texto.innerHTML = "Daqui a 2 anos estarei em LA...";
 }
 mudarTexto();
@@ -35,7 +35,7 @@ mudarCorDoQuadradoParaBranco();
 
 function corrigirTexto() {
   let texto = document.getElementsByClassName("title")[0];
-  texto.innerText = "E vou ser muito rica!";
+  texto.innerText = "Exercício 5.1 - Javascript";
 }
 corrigirTexto();
 
@@ -46,7 +46,7 @@ function modificarParaMaiúsculo() {
 modificarParaMaiúsculo();
 
 function exibirConteudo() {
-  let p = document.getElementsByTagName("p")[0];
+  let p = document.getElementsByTagName("p");
   for (let i = 0; i < p.length; i += 1) {
     console.log(p[i].innerHTML);
   }

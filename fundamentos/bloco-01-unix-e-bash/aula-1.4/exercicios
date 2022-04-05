@@ -1,0 +1,135 @@
+cd /home/pam/unix_tests
+pwd
+
+# Exercício 2
+touch skills2.txt
+echo "Internet" >> skills2.txt
+echo "Unix" >> skills2.txt
+echo "Bash" >> skills2.txt
+
+
+# Exercício 3
+echo "HTML" >> skills2.txt
+echo "CSS" >> skills2.txt
+echo "JavaScript" >> skills2.txt
+echo "React" >> skills2.txt
+echo "SQL" >> skills2.txt
+sort < skills2.txt
+
+
+
+# Exercício 4
+cat skills2.txt | wc -l
+
+
+# Exercício 5
+sort < skills2.txt | head -n 3 > top_skills.txt
+
+
+# Exercício 6
+touch phrases2.txt
+echo "The quick brown fox jumps over the lazy dog." > phrases2.txt
+echo "Quick fox jumps nightly above wizard." >> phrases2.txt
+echo "The quick onyx goblin jumps over the lazy dwarf." >> phrases2.txt
+
+
+
+# Exercício 7
+grep br phrases2.txt | wc -l
+
+
+# Exercício 8
+grep -v br phrases2.txt | wc -l
+
+
+# Exercício 9
+echo "Arábia" >> phrases2.txt
+echo "Austrália" >> phrases2.txt
+
+
+
+# Exercício 10
+cp countries.txt bunch_of_things.txt
+cat phrases2.txt >> bunch_of_things.txt
+
+
+
+# Exercício 11
+sort bunch_of_things.txt -o bunch_of_things.txt
+
+
+
+
+
+
+cd /home/pam/unix_tests
+pwd
+
+
+# Exercício 2
+ls -l
+
+# Exercício 3
+chmod a+rw bunch_of_things.txt
+ls -l
+
+
+# Exercício 4
+chmod a-w bunch_of_things.txt
+ls -l
+
+
+# Exercício 5
+chmod 644 bunch_of_things.txt
+ls -l
+
+
+
+
+
+
+# Exercício 1
+ps
+
+
+# Exercício 2
+sleep 30 &
+
+
+
+# Exercício 3
+ps | grep sleep
+kill 1234
+
+
+# Exercício 4
+sleep 30
+bg
+
+
+# Exercício 5
+sleep 300 &
+
+
+# Exercício 6
+sleep 200
+ctrl z
+sleep 100
+ctrl z
+
+
+# Exercício 7
+jobs
+fg %1 
+jobs
+
+
+# Exercício 8
+bg %3
+jobs
+
+
+# Exercício 9
+ps | grep sleep
+killall sleep
+

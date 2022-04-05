@@ -53,3 +53,77 @@ console.log(menu);
 // For = Estrutura de repetição.
 // Usada para percorrer .
 
+// Estrutura padrão : 
+// for (let i = 0; i < cars.length; i += 1) 
+
+// EXERCÍCIOS 
+// 1-Utilize o for para imprimir os elementos da lista groceryList com o console.log() :
+
+let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
+ for (let i = 0; i < groceryList.length; i += 1) {
+     console.log(groceryList[i]);
+ }
+
+
+
+ FOR of 
+ exemplos :
+
+//   1- 
+ let numeros = [1,2,3,4,5];
+for(let numero of numeros) {
+  console.log(numero);
+}
+// resultado: 
+//1
+//2
+//3
+//4
+//5
+
+
+
+// 2-
+let word = 'Hello';
+for (let letter of word) {
+  console.log(letter);
+}
+// resultado:
+// "H"
+// "e"
+// "l"
+// "l"
+// "o"
+
+
+// Com o for/of , nós conseguimos somar um valor a cada elemento do array e retorná-los da seguinte forma:
+let arrOfNumbers = [10, 20, 30];
+for (let sum of arrOfNumbers) {
+  sum += 1;
+  console.log(sum);
+}
+// 11
+// 21
+// 31
+
+EXERCÍCIO 
+
+// 1 - Utilize o for/of para imprimir os elementos da lista names com o console.log() :
+
+let names = ['João', 'Maria', 'Antônio', 'Margarida'];
+for (let nomes of names){
+    console.log(nomes);
+}
+
+
+EXERCÍCIOS
+
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+// 1-Nesse primeiro exercício, percorra o array imprimindo todos os valores nele contidos com a função console.log() ;
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+for (let numeros of numbers){
+    console.log(numeros);
+}
+
+

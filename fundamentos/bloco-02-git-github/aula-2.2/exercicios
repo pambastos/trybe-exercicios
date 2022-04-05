@@ -1,0 +1,26 @@
+pwd
+
+
+cd ..
+
+
+cd pam/Documentos/trybe-exercises/course
+
+mkdir trybe-exercises
+cd trybe-exercises
+
+
+git clone https://github.com/pambastos/trybe
+
+
+git pull origin exercises/2.3
+
+touch arquivoteste.txt
+
+
+git add .
+git commit -m "adicionando um arquivo de texto"
+git push -u origin exercises/2.3
+
+
+

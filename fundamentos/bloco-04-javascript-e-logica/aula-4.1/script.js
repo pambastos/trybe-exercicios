@@ -1,3 +1,6 @@
+// Variaveis
+
+
 const myName = "Pâmela";
 const birthCity = "São Gonçalo";
 let birtyYear = 1995;

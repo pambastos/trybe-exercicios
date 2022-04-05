@@ -1,0 +1,98 @@
+ # exercício 1
+  mkdir unix_tests
+  cd unix_tests
+
+
+  # exercício 2
+  touch trybe.txt
+
+# exercício 3
+  cp trybe.txt trybe_backup.txt
+
+# exercício 4
+  mv trybe.txt outro_nome.txt
+
+# exercício 5
+  mkdir backup
+
+# exercício 6
+  mv trybe_backup.txt backup
+
+# exercício 7
+  mkdir backup2
+
+ # exercício 8
+  mv backup/trybe_backup.txt backup2
+
+# exercício 9
+  rmdir backup
+
+ # exercício 10
+  mv backup2 backup
+
+# exercício 11
+  pwd
+  ls -l .
+
+# exercício 12
+  rm -rd backup
+
+# exercício 13
+  clear
+
+  # exercício 14
+  head -n 5 skills.txt
+
+# exercício 15
+  tail -n 4 skills.txt
+
+  # exercício 16
+  rm *.txt
+
+# exercício 1
+  curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+
+# exercício 2
+  cat countries.txt
+
+# exercício 3
+  less countries.txt
+  # ou...
+  more countries.txt
+
+more countries.txt
+  # agora que você está dentro do arquivo, digite uma barra `/` e em seguida a palavra Zambia
+  # /Zambia
+  # pressione "Enter" para sair
+
+ # exercício 5
+  grep Brazil countries.txt
+
+  # exercício 6
+  grep -i brazil countries.txt
+
+  # exercício 7
+  grep -v fox phrases.txt
+
+  # exercício 8
+  wc -w phrases.txt
+
+  # exercício 9
+  wc -l phrases.txt
+
+  # exercício 10
+  touch empty.tbt
+  touch empty.pdf
+
+  # exercício 11
+  ls -l
+
+  # exercício 12
+  ls -l *txt
+
+  # exercício 13
+  ls -l *t?t
+
+  # exercício 14
+  man ls
+

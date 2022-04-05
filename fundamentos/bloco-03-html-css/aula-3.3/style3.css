@@ -1,0 +1,17 @@
+h1, p {
+    text-align: center;
+  }
+  
+  ul:hover, ol:hover {
+    background-color: red;
+  }
+  
+  li:active {
+    font-family: sans-serif, Helvetica;
+    font-size: 20px;
+  }
+  
+  /* 5. No 'style.css', adicione a propriedade 'list-style: none' para ambas as listas. */
+  li {
+    list-style: none;
+  }

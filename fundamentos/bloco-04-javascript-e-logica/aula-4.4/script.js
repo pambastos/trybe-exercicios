@@ -1,8 +1,15 @@
+
+// OBJETOS: 
+
+
+
 // let car = {
 //     type: 'Fiat',
 //     model: '500',
 //     color: 'white',
 //   };
+
+
 
 //   let diasDaSemana = {
 //     1: 'domingo',
@@ -96,7 +103,7 @@
 
 
 // EXERCÍCIOS
-// 1- Crie o objeto player utilizando os dados abaixo:
+// 1- 
 
 // let name = "Marta";
 // let lastName = "Silva";
@@ -112,7 +119,7 @@
 
 
 
-// 2- Acesse as chaves name , lastName e age e concatene as suas informações para imprimir no console uma mensagem no seguinte formato: "A jogadora Marta Silva tem 34 anos de idade".
+// 2- 
 
 // console.log(
 //     "A jogadora" +
@@ -130,8 +137,8 @@
 
 
 
-// 3- Adicione ao objeto a chave bestInTheWorld e atribua a esta chave um array contendo as datas em que a jogadora Marta foi considerada a melhor do mundo.
-[2006, 2007, 2008, 2009, 2010, 2018];
+// 3- 
+// [2006, 2007, 2008, 2009, 2010, 2018];
 
 
 // let player = {
@@ -146,7 +153,7 @@
 
 
 
-// 4 - Acesse a chave bestInTheWorld e faça um console.log no seguinte formato: "A jogadora Marta Silva foi eleita a melhor do mundo por 6 vezes".
+// 4 -
 
 
 // console.log('A jogadora' + ' ' + player.nome + ' ' + player.ultimoNome + ' ' + 'foi eleita e melhor do mundo por ' + ' ' +  player.melhorDoMundo.length + ' ' + 'vezes.' )
@@ -157,7 +164,7 @@
 
 
 
-// 5- Acesse a chave medals e faça um console.log no seguinte formato: "A jogadora possui 2 medalhas de ouro e 3 medalhas de prata".
+// 5-
 
 // let player = {
 //     nome: "Marta",
@@ -169,3 +176,148 @@
 // player.melhorDoMundo = [2006, 2007, 2008, 2009, 2010, 2018];
 
 // console.log('a jogadora possui' + ' ' + player.Medalhas.golden + ' ' +  'medalhas de ouro e' + ' ' + player.Medalhas.silver + ' ' +  'medalhas de prata.');
+
+
+
+// FOR IN
+// O forin nos retorna o seu ÍNDICE: 
+
+// let cars = ['Saab', 'Volvo', 'BMW'];
+// for (let index in cars) {
+//   console.log(cars[index]);
+// };
+// Saab
+// Volvo
+// BMW
+
+
+
+// let car = {
+//   type: 'Fiat',
+//   model: '500',
+//   color: 'white',
+// };
+// for (let chave in car) {
+//   console.log(chave, car[chave]);
+// }
+// type Fiat
+// model 500
+// color white
+
+
+
+// let food = ['hamburguer', 'bife', 'acarajé'];
+// for (let index in food) {
+//   console.log(index);
+// };
+//resultado: 0, 1, 2;
+
+
+
+// FOR OF
+// O forof nos retorna o seu VALOR.
+
+// let food = ['hamburguer', 'bife', 'acarajé'];
+// for (let value of food) {
+//   console.log(value);
+// };
+//resultado: hamburguer, bife, acarajé;
+
+// EXERCÍCIOS: 
+// 1- 
+// let names = {
+//   person1: 'João',
+//   person2: 'Maria',
+//   person3: 'Jorge',
+// };
+// for(let chave in names){
+//   console.log('Olá', names[chave])
+// }
+// Olá João
+// Olá Maria
+// Olá Jorge
+
+
+// 2- 
+// let car = {
+//   model: 'A3 Sedan',
+//   manufacturer: 'Audi',
+//   year: 2020
+// };
+// for (let chave in car){
+//   console.log(chave, car[chave])
+// }
+
+
+// FUNÇÕES 
+//  Estrutura:
+
+//  function name(params) {
+//    return
+//  };
+//  console.log()
+
+
+// EXERCÍCIOS 
+// 1- 
+let info = {
+  personagem: 'Margarida',
+  origem: 'Pato Donald',
+  nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+};
+for(let index in info){
+  console.log('Bem vinda,' + info.personagem)
+}
+
+// 2 - 
+info.reccorente = 'sim';
+console.log(info);
+
+// 3- 
+for(let chave in info){
+  console.log(chave)
+}
+
+// 4- 
+for(let chave in info){
+  console.log(info[chave])
+}
+
+// 5- 
+
+
+
+
+// 6-
+let leitor = {
+  nome: 'Julia',
+  sobrenome: 'Pessoa',
+  idade: 21,
+  livrosFavoritos: [
+    {
+      titulo: 'O Pior Dia de Todos',
+      autor: 'Daniela Kopsch',
+      editora: 'Tordesilhas',
+    },
+  ],
+};
+console.log('O livro favorito de ' + leitor.nome + leitor.sobrenome + "se chama" + leitor.livrosFavoritos[0].titulo);
+
+// 7- 
+leitor.livrosFavoritos.push({
+  titulo: 'Harry Potter e o Prisioneiro de Azkaban',
+  autor: 'JK Rowling',
+  editora: 'Rocco',
+});
+console.log(leitor)
+
+// 8- 
+console.log(leitor.nome + "tem" + leitor.livrosFavoritos.length + 'livros favoritos')
+
+
+
+// FUNÇÕES 
+function verificaSeEpalindromo (string) {
+ 
+  
+}
